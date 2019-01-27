@@ -1,6 +1,6 @@
 import random
 
-def main():
+def game():
 
     min = 1
     max = 6
@@ -29,7 +29,6 @@ def main():
             print("The final score is:",score-bat)
             break
 
-if __name__=='__main__':
-    main()
+game()
 
         
