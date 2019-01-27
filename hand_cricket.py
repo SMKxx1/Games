@@ -23,7 +23,9 @@ def game():
             print("That's a",bat)
             print("The score is",score)
             play = input("Next ball?? ")
-            
+        elif score-bat == 0:
+            print("Out!!!")
+            print("Duck!!!")
         else:
             print("Out!!!")
             print("The final score is:",score-bat)
