@@ -11,7 +11,8 @@ def game():
             global player_score
             print("Stone-Paper-Scissor")
             player = input("> ")
-
+            player = player.lower()
+            
             if player.isdigit():
                 if eval(player) in rule:
                     player = rule[eval(player)]
