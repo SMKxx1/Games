@@ -3,7 +3,7 @@ import random
 def main():
 
     min = 1
-    max = 10
+    max = 6
     
     play = "yes"
     score = 0
