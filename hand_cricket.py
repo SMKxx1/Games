@@ -32,5 +32,5 @@ def game():
             break
 
 game()
-
+input()
         
